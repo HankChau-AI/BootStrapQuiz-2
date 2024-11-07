@@ -1,0 +1,54 @@
+.DivColor{
+    background-color: blueviolet;
+}
+
+.titleHeader{
+    height: 200px;
+    background-color: #D9D9D9;
+}
+
+.containergrid{
+
+    min-height: auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+}
+
+.groupone{
+    grid-column: 1;
+    grid-row: 1;
+
+
+}
+
+.grouptwo{
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+.groupthree{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.buttongroup{
+    grid-column: 5/9;
+    grid-row: 1;
+}
+
+.danceimg{
+    background-image: url(/Assets/JustDance.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-row: 3/7;
+    grid-column: 1/5;
+}
+
+.cardgrid{
+    grid-row: 3/9;
+    grid-column: 6/9;
+}
